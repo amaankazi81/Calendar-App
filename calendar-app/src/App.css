@@ -1,0 +1,166 @@
+.App {
+  height: 110vh;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.calender{
+  width: 600px;
+  height: 180px;
+  padding: 5px;
+  border: solid;
+  border-width: 0.5px;
+  border-radius: 20px;
+  border-color: aliceblue;
+  margin-top: -10px;
+  margin-left: 380px;
+  backdrop-filter: blur(10px);
+}
+.calender:hover{
+  box-shadow: 10px 15px 20px rgb(210, 211, 211);
+}
+
+.calender button:hover{
+  background-color: #cff64e;
+}
+
+.event-form {
+  width: 60%;
+  height: 290px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  backdrop-filter: blur(10px);
+  margin-left: 270px;
+  border: solid;
+  border-width: 0.5px;
+  border-radius: 20px;
+  border-color: aliceblue;
+  }
+
+  .event-form:hover{
+    box-shadow: 10px 15px 20px rgb(210, 211, 211);
+  }
+
+  .marked-date {
+    background-color: #2de64c;
+    color: black;
+  }
+
+  #noevent{
+    width: 200px;
+    height: 30px;
+    padding: -5px;
+    margin-top: -15px;
+    margin-left: 540px;
+  }
+
+  .event-form input, .event-form textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 280px;
+    padding: 8px;
+  }
+
+  .event-form button{
+    padding: 8px;
+    margin: 5px;
+    border: solid;
+    border-width: 0.5px;
+    border-radius: 15px;
+    border-color: aliceblue;
+  }
+
+  .event-form button:hover{
+    background-color: #2ef2cb;
+    color: rgb(23, 22, 22);
+  }
+
+  .ulbtn button{
+    padding: 8px;
+    margin: 5px;
+    border: solid;
+    margin-left: 10px ;
+    border-width: 0.5px;
+    border-radius: 15px;
+    border-color: aliceblue;
+  }
+
+  .ulbtn button:hover{
+    background-color: #2ef2cb;
+    color: rgb(23, 22, 22);
+  }
+
+  @media (max-width: 768px) {
+    .calender {
+      width: 90%;
+      height: auto;
+      margin: 10px auto;
+    }
+  
+    .event-form {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      padding: 15px;
+    }
+  
+    #noevent {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .event-form input,
+    .event-form textarea {
+      width: 90%;
+      margin: 10px auto;
+    }
+  
+    .ulbtn button {
+      margin: 5px auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .App {
+      height: auto;
+      padding-bottom: 20px;
+    }
+  
+    .calender {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .event-form {
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+      height: auto;
+    }
+  
+    .event-form input,
+    .event-form textarea {
+      width: 100%;
+      padding: 5px;
+    }
+  
+    #noevent {
+      width: 100%;
+      margin: 10px auto;
+    }
+  
+    .ulbtn button {
+      width: 90%;
+      margin: 5px auto;
+    }
+  }
+ 
