@@ -42,8 +42,7 @@ Delete Event: Use the "Delete" button next to an event to remove it.
 To enable notifications, the app will request permission from the browser. Make sure to allow notifications when prompted to receive event reminders.
 
 **API**
-
-The app relies on the following API functions in api.js:
+**The app relies on the following API functions in api.js:**
 
 getEvents(): Fetches all events.
 
