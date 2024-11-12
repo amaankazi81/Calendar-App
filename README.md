@@ -43,7 +43,7 @@ A simple and interactive calendar application that allows users to create, edit,
 
 4. Start the development server:
 
-   ``bash
+   ```bash
    npm run start
 
 5. Start Frontent:
