@@ -16,6 +16,43 @@ A simple and interactive calendar application that allows users to create, edit,
 - **Backend**: NestJs.
 - **Notifications**: Web Notifications API for browser notifications.
 
+## Project Workflow
+
+Select a Date: Click on a date in the calendar to view or create events.
+
+![C1](https://github.com/user-attachments/assets/814e2025-2f0f-4261-bc85-6d1b548e6da5)
+
+Add Event: Click on a date and fill in the form with the event title and description, then click "Submit".
+
+![C2](https://github.com/user-attachments/assets/ba91b584-499e-4986-841d-3c0337f040d2)
+![C3](https://github.com/user-attachments/assets/1adb60df-e829-4e04-b7f7-c9a00df34dcc)
+
+Edit Event: Use the "Edit" button next to an event to modify its details.
+
+![C4](https://github.com/user-attachments/assets/4a23213b-f8f1-43ec-a8d2-5fb9a09dc688)
+![C5](https://github.com/user-attachments/assets/abeea14f-d548-4191-87c4-c74c2dccbd0c)
+
+Delete Event: Use the "Delete" button next to an event to remove it.
+
+![C6](https://github.com/user-attachments/assets/05f2b21a-24f3-409c-88ff-4d72434d515c)
+![C7](https://github.com/user-attachments/assets/2eadce85-2a1e-4ad0-8c65-c41eee891047)
+
+
+**Notification Permissions:**
+To enable notifications, the app will request permission from the browser. Make sure to allow notifications when prompted to receive event reminders.
+
+**API**
+
+The app relies on the following API functions in api.js:
+
+getEvents(): Fetches all events.
+
+createEvent(eventData): Creates a new event.
+
+updateEvent(eventId, eventData): Updates an existing event.
+
+deleteEvent(eventId): Deletes an event.
+
 
 ## Getting Started
 
@@ -53,26 +90,6 @@ A simple and interactive calendar application that allows users to create, edit,
 Frontent will start at http://localhost:3001
 
 Backend will host at http://localhost:3000 
-
-## Usage
-
-Select a Date: Click on a date in the calendar to view or create events.
-Add Event: Click on a date and fill in the form with the event title and description, then click "Submit".
-Edit Event: Use the "Edit" button next to an event to modify its details.
-Delete Event: Use the "Delete" button next to an event to remove it.
-Receive Notifications: Enable notifications in your browser to get alerted about upcoming events. When an event notification appears, you can click "Snooze" to receive a reminder in 5 minutes.
-
-**Notification Permissions:**
-To enable notifications, the app will request permission from the browser. Make sure to allow notifications when prompted to receive event reminders.
-
-**API**
-
-The app relies on the following API functions in api.js:
-
-getEvents(): Fetches all events.
-createEvent(eventData): Creates a new event.
-updateEvent(eventId, eventData): Updates an existing event.
-deleteEvent(eventId): Deletes an event.
 
 ## License
 
