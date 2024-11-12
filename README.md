@@ -54,7 +54,7 @@ Frontent will start at http://localhost:3001
 
 Backend will host at http://localhost:3000 
 
-##Usage
+## Usage
 
 Select a Date: Click on a date in the calendar to view or create events.
 Add Event: Click on a date and fill in the form with the event title and description, then click "Submit".
@@ -74,6 +74,6 @@ createEvent(eventData): Creates a new event.
 updateEvent(eventId, eventData): Updates an existing event.
 deleteEvent(eventId): Deletes an event.
 
-##License
+## License
 
 This project is licensed under the MIT License.
